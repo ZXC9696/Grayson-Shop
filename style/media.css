@@ -1,0 +1,67 @@
+@media (max-width: 1140px) {
+    .fashion__card,
+    .cards__item {
+        width: calc(25% - 15px);
+    }
+}
+@media (max-width: 992px) {
+    .header__nav .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer .container .footer__row {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .footer__col-title {
+        color: #41A28E;
+    }
+}
+@media (max-width: 768px) {
+    .cards__item-info {
+        max-width: unset;
+    }
+    .intro__title {
+        font-size: 42px;
+    }
+    .fashion__cards,
+    .cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .fashion__card,
+    .cards__item {
+        width: calc(50% - 15px);
+        max-width: unset;
+    }
+}
+@media (max-width: 550px) {
+    .intro {
+        min-height: 500px;
+    }
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .header__link {
+        margin-right: 0;
+    }
+    .intro__title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 430px) {
+    .intro__title {
+        text-align: center;
+        line-height: 40px;
+    }
+    .intro__text {
+        margin: 20px 0 30px;
+    }
+    .fashion__card,
+    .cards__item {
+        width: 100%;
+    }
+}
